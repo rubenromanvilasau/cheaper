@@ -1,5 +1,5 @@
 import './navbar.scss';
-import{ Outlet, Link } from 'react-router-dom';
+import{ NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
@@ -9,9 +9,11 @@ export const Navbar = () => {
                 <img src="../src/assets/cheaper.svg" height={55} alt="" />
                 <ul>
                     <li className='item'>
-                        <a href="/marketplace">Marketplace</a>
+                        <NavLink to="/marketplace">Marketplace</NavLink>
                     </li>
-                    <li className='item'>About</li>
+                    <li className='item'>
+                        <NavLink to="/stores">Stores</NavLink>
+                    </li>                
                 </ul>
             </div>
 
@@ -20,8 +22,18 @@ export const Navbar = () => {
                     type="text" 
                     placeholder="Search"
                 />
-                <button className="btn-register">Register</button>
-                <button className="btn-connect-wallet">Connect wallet</button>
+                <button
+                    className="btn-register"
+                    onClick={ () => { console.log('Register')}}
+                >
+                    Register
+                </button>
+                <button 
+                    className="btn-connect-wallet" 
+                    onClick={ () => { console.log('Register')}}
+                >
+                    Connect wallet
+                </button>
             </div>
 
         </div>

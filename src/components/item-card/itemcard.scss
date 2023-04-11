@@ -12,6 +12,13 @@
         transform: scale(1.02);
     }
 
+    a{
+        text-decoration: none;
+        &:visited{
+            color: inherit;
+        }
+    }
+    
     .img-header{
         display: flex;
         flex-direction: row;

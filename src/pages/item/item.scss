@@ -9,14 +9,13 @@
         display: flex;
         flex-direction: row;
         background: linear-gradient(90deg, #E9D5CA -53.98%, rgba(217, 217, 217, 0) 100%);
-        width: 100%;
         padding: 50px;
         gap: 4rem;
     
         .left{
-            img{
+            img-item{
                 height: 644px;
-                width: 710px;
+                width: 650px;
             }
         }
 
@@ -118,19 +117,8 @@
                     font-weight: 500;
                     font-size: 20;
                     color: #ffff;
-                    width: 315px;
-                }
-
-                .other{
-                    border: 1px solid #243A73;
-                    color: #243A73;
-                    text-transform: uppercase;
-                    font-family: 'Poppins';
-                    font-weight: 500;
-                    font-size: 20;
-                    line-height: 30px;
-                    width: 315px;
-
+                    width: 240px;
+                    border: transparent;
                 }
             }
         }

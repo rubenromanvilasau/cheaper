@@ -1,6 +1,7 @@
 import React from 'react'
 import { CategorySelector, ItemCard } from '../../components';
 import './marketplace.scss';
+import { useNavigate } from 'react-router-dom';
 
 const items = [
     {
@@ -53,7 +54,14 @@ const items = [
     },
 ];
 
-export const Marketplace = () => {
+export const MarketplacePage = () => {
+
+    const navigate = useNavigate();
+
+    const goToStores = () => {
+        navigate('/stores');
+    }
+
     return (
         <div className='content-container'>
             
@@ -64,7 +72,12 @@ export const Marketplace = () => {
                         <h1>TOGETHER WE GROW,</h1>
                         <h1>TOGETHER WE THRIVE</h1>
                     </div>
-                    <button className='btn-vendor'>VENDOR STORE LIST</button>
+                    <button 
+                        className='btn-vendor'
+                        onClick={ () => goToStores()}
+                    >
+                        VENDOR STORE LIST
+                    </button>
                     <div className='powered-by'>
                         <p>Powered by</p>
                         <img src="../src/assets/c.svg" alt="" />

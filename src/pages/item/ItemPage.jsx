@@ -1,13 +1,19 @@
+import { useState } from 'react';
+import { ImageCarousel, QuantitySelector, StoreBenefits } from '../../components';
 import './item.scss';
 
-export const Item = () => {
+export const ItemPage = () => {
+
+    const [units, setUnits] = useState(0);
+
     return (
         <div className='content-container'>
     
             <div className="top">
                 
                 <div className="left">
-                    <img src="../src/assets/big-sneaker.png" alt="" />
+                    <img className='img-item' src="../src/assets/big-sneaker.png" alt="" />
+                    <ImageCarousel/>
                 </div>
 
                 <div className="right">
@@ -40,8 +46,13 @@ export const Item = () => {
                 
                     <div className="buttons">
                         <button className='btn-enter'>Enter group</button>
-                        <button className='other'>A</button>
+                        <QuantitySelector
+                            units={units}
+                            setUnits={setUnits}
+                            availableUnits={1}
+                        />
                     </div>
+                    <StoreBenefits/>
                 </div>
             </div>
     

@@ -22,6 +22,13 @@
 
             li{
                 padding: 10px;
+                a{
+                    text-decoration: none;
+
+                    &:visited{
+                        color: inherit;
+                    }
+                }
             }
 
             .item{
@@ -45,7 +52,19 @@
             color: #0280908F;
             height: 62px;
 
+            &:focus{
+                border: 1px solid #0280908F;
+            }
         }
+        ::placeholder {
+            text-indent: 10px;
+            color: #02809085;
+            background-image: url('../../assets/search.svg');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-position: right center;
+            background-size: 25px;
+          }
 
         .btn-register{
             display: flex;
