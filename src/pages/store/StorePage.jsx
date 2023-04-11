@@ -7,9 +7,9 @@ export const StorePage = () => {
 
             {/* TOP */}
             <section className="top">
-                <img className="store-banner" src="../src/assets/store-banner.png" alt="store-banner" />
+                <img className="store-banner" src="../../../public/assets/store-banner.png" alt="store-banner" />
                 <div className="logo-name">
-                    <img className="store-logo" src="../src/assets/store-logo.png" alt="store-logo" />
+                    <img className="store-logo" src="../../../public/assets/store-logo.png" alt="store-logo" />
                     <div className="name-description">
                         <h1>Store Name</h1>
                         <p>Description</p>

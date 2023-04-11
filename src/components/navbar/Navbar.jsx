@@ -6,7 +6,7 @@ export const Navbar = () => {
         <div className="navbar">
         
             <div className="start">
-                <img src="../src/assets/cheaper.svg" height={55} alt="" />
+                <img src="../../../public/assets/cheaper.svg" height={55} alt="" />
                 <ul>
                     <li className='item'>
                         <NavLink to="/marketplace">Marketplace</NavLink>

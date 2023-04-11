@@ -8,10 +8,10 @@ export const ItemCard = ({ item }) => {
 
                 <div className='img-header'>
                     <span>2 available</span>
-                    <img src="../src/assets/heart.png" alt="heart" />
+                    <img src="../../../public/assets/heart.png" alt="heart" />
                 </div>
 
-                <img src="../src/assets/sneaker.png" alt="" />
+                <img src="../../../public/assets/sneaker.png" alt="" />
                 <p className='item-name'>Nike Shoe</p>
                 <p className="description">Men flex comfortable</p>
                 <div className='prices'>

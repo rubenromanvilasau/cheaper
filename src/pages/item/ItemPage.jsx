@@ -12,7 +12,7 @@ export const ItemPage = () => {
             <div className="top">
                 
                 <div className="left">
-                    <img className='img-item' src="../src/assets/big-sneaker.png" alt="" />
+                    <img className='img-item' src="../../../public/assets/big-sneaker.png" alt="" />
                     <ImageCarousel/>
                 </div>
 
