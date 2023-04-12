@@ -4,3 +4,6 @@ export * from './seller/SellerPage';
 export * from './item/ItemPage';
 export * from './stores/StoresPage';
 export * from './store/StorePage';
+export * from './cart/CartPage';
+export * from './new-product/NewProductPage';
+export * from './order-history/OrderHistoryPage';

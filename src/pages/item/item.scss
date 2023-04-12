@@ -11,6 +11,7 @@
         background: linear-gradient(90deg, #E9D5CA -53.98%, rgba(217, 217, 217, 0) 100%);
         padding: 50px;
         gap: 4rem;
+        padding: 1rem;
     
         .left{
             img-item{
@@ -46,7 +47,7 @@
 
             .discounts{
                 display: flex;
-                flex-direction: row;
+                flex-flow: row wrap;
                 gap: 1rem;
 
                 .square{
@@ -119,6 +120,118 @@
                     color: #ffff;
                     width: 240px;
                     border: transparent;
+                }
+            }
+        }
+    }
+
+    .mid{
+        padding: 1rem;
+        
+        .container{
+            background-color: #F2F2F2;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 640px;
+            padding: 1rem;
+            gap: 1rem;
+
+            .controls{
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                width: 470px;
+                height: 530px;
+                border-radius: 10px;
+                padding: 1rem;
+
+                .selector{
+                    height: 58px;
+                    width: 388px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #0E538C;
+                    padding-left: 1rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    cursor: pointer;
+                    border-radius: 6px;
+
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+
+                .active-selector{
+
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 150%;
+
+                    background-color: #F2F2F2;
+                }
+            }
+
+            .info{
+
+                background-color: #ffff;
+                padding: 1rem;
+                border-radius: 11px;
+                height: 534px;
+
+                .extra-info{
+                    padding: 2rem;
+                    font-family: 'DM Sans';
+                    font-size: 22px;
+                    font-weight: 400;
+                    
+                    .order{
+                        background-color: #F5F5F5;
+                        border-radius: 11px;
+                        padding: 1rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        gap: 8rem;
+
+                        .info-col{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                        }
+
+                        .title{
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            text-transform: capitalize;
+                            color: rgba(0, 0, 0, 0.36);
+                            margin: 0;
+                        }
+
+                        .data{
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 30px;
+                            text-transform: capitalize;
+                            color: #0E538C;
+                            margin: 0;
+                        }
+                    }
                 }
             }
         }

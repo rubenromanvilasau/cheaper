@@ -10,14 +10,54 @@
         font-size: 24px;
     }
 
+    .category{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+
+        cursor: pointer;
+
+        &:hover{
+            background: rgba(14, 83, 140, 0.04);
+        }
+    }
+
+    p{
+        display: block;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+            
+        text-transform: capitalize;
+
+        color: #0A093D;
+
+        border-bottom: 3px solid #38A3A5;
+    }
+
     ul{
         list-style: none;
-
+        margin-top: 0;
+        
+        
         li{
+            font-family: 'Poppins';
+            font-style: normal;
             font-weight: 500;
             font-size: 20px;
-            font-family: 'Poppins';
             line-height: 30px;
+            /* identical to box height */
+            
+            text-transform: capitalize;
+            
+            color: #737576;
+
+            cursor: pointer;
+            &:hover{
+                background: rgba(14, 83, 140, 0.04);
+            }
         }
     }
 

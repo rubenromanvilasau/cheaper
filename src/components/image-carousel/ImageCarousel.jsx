@@ -38,7 +38,7 @@ export const ImageCarousel = ({
     ] 
 }) => {
 
-    const [selectedImage, setSelectedImage] = useState(images[0]);
+    const [selectedImage, setSelectedImage] = useState( images[0] );
 
     const onImageClick = (image) => {
         console.log(image, selectedImage);

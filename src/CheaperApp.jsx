@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Footer } from './components/index';
-import { MarketplacePage, SellerPage, LoginPage, ItemPage, StoresPage, StorePage } from './pages/';
+import { MarketplacePage, SellerPage, LoginPage, ItemPage, StoresPage, StorePage, CartPage, NewProductPage, OrderHistoryPage } from './pages/';
 import { Route, Routes } from 'react-router-dom';
 
 export const CheaperApp = () => {
@@ -15,6 +15,9 @@ export const CheaperApp = () => {
           <Route path="/login" element={ <LoginPage/> }/>
           <Route path="/stores" element={ <StoresPage/> }/>
           <Route path="/store/:id" element={ <StorePage/> }/>
+          <Route path="/cart" element={ <CartPage/> }/>
+          <Route path="/new-product" element={ <NewProductPage/> }/>
+          <Route path="/order-history" element={ <OrderHistoryPage/> }/>
           <Route path="/*" element={ <h1>ERROR PAGE NOT FOUND</h1> }/>
         </Routes>
         {/* <Footer/> */}

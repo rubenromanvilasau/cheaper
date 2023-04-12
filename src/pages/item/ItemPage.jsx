@@ -1,15 +1,20 @@
 import { useState } from 'react';
-import { ImageCarousel, QuantitySelector, StoreBenefits } from '../../components';
+import { ImageCarousel, MoreProducts, QuantitySelector, StoreBenefits } from '../../components';
 import './item.scss';
 
 export const ItemPage = () => {
 
-    const [units, setUnits] = useState(0);
+    const [units, setUnits] = useState( 0 );
+    const [showDescription, setShowDescription] = useState( true );
+
+    const toggleShowDescription = () => {
+        setShowDescription( !showDescription );
+    }
 
     return (
         <div className='content-container'>
     
-            <div className="top">
+            <section className="top">
                 
                 <div className="left">
                     <img className='img-item' src="../../../public/assets/big-sneaker.png" alt="" />
@@ -54,8 +59,66 @@ export const ItemPage = () => {
                     </div>
                     <StoreBenefits/>
                 </div>
-            </div>
+            </section>
     
+            {/* DESCRIPTION AND GROUP SHOPPING*/}
+            <section className="mid"> 
+                <div className="container">
+                    <div className="controls">
+                        <div 
+                            className={`selector ${ showDescription ? 'active-selector' : ''}`}
+                            onClick={ () => toggleShowDescription() }    
+                        >
+                            <span>Description</span>
+                        </div>
+                        <div 
+                            className={`selector ${ !showDescription ? 'active-selector' : ''}`}
+                            onClick={ () => toggleShowDescription() }    
+                        >
+                            <span>Group shopping</span>
+                        </div>
+                    </div>
+
+                    <div className="info">
+                        { showDescription ?
+                            <div className="extra-info">
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam beatae quam temporibus soluta, consequatur reprehenderit quae illo? Temporibus tempora reiciendis, ullam ipsa quisquam magnam maxime dicta accusamus. Ipsam accusantium quo quam dolores nostrum nihil iure, aut sed dignissimos beatae eveniet labore numquam? Officiis minus expedita nostrum repudiandae rerum consequatur repellat.</span>
+                            </div>
+                            :
+                            <div className="extra-info">
+                                <div className="order">
+
+                                    <div className="info-col">
+                                        <p className="title">Payment method</p>
+                                        <p className="data">Paypal</p>
+                                    </div>
+
+                                    <div className="info-col">
+                                        <p className="title">Name</p>
+                                        <p className="data">Credit card</p>
+                                    </div>
+
+                                    <div className="info-col">
+                                        <p className="title">Quantity</p>
+                                        <p className="data">Crypto</p>
+                                    </div>
+
+                                    <div className="info-col">
+                                        <p className="title">Date</p>
+                                        <p className="data">01 Sep 2023</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </section>
+
+            {/* BOTTOM, SIMILAR PRODUCTS */}
+            <section className="bottom">
+                <MoreProducts/>
+            </section>
 
         </div>
     )

@@ -6,8 +6,8 @@ a{
 }
 
 .card{
-    width: 615px;
-    height: 340px;
+    width: 500px;
+    height: 300px;
     background-color: #E9D5CA;
     border-radius: 55px;
 
@@ -23,21 +23,22 @@ a{
     }
 
     .store-banner{
-        height: 170px;
-        width: 510px;
+        height: 140px;
+        width: 400px;
     }
 
     .store-logo{
-        height: 115px;
-        width: 115px;
+        height: 100px;
+        width: 100px;
 
         position: relative;
-        bottom: 40px;
+        bottom: 65px;
     }
 
     .description{
         font-family: 'Poppins';
         font-size: 16px;
+        margin: 0;
     }
 
     .name-logo{
@@ -45,13 +46,12 @@ a{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 10px;
     }
 
     h3{
         font-size: 24px;
         line-height: 36px;
         text-transform: capitalize;
-        margin-bottom: 0;
+        margin: 0;
     }
 }

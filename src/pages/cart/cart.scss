@@ -1,0 +1,24 @@
+.cart-container{
+    background: linear-gradient(90deg, #E9D5CA -53.98%, rgba(217, 217, 217, 0) 100%);
+    padding: 120px 50px;
+    display: flex;
+    flex-direction: column;
+
+    .cart-items{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: capitalize;
+        color: #0C0C0C;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+}

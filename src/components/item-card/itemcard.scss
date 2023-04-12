@@ -23,8 +23,9 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        // position: absolute;
-        // bottom: 150px;
+        position: relative;
+        top: 35px;
+        left: 30px;
         padding: 5px;
         width: 200px;
 
@@ -35,15 +36,15 @@
         }
 
         img{
-            height: 16px;
-            width: 16px;
+            height: 20px;
+            width: 24px;
         }
 
     }
 
-    img{
-        width: 230px;
-        height: 175px;
+    .product-image{
+        display: flex;
+        justify-content: center;
     }
 
     .item-name{

@@ -11,7 +11,9 @@ export const ItemCard = ({ item }) => {
                     <img src="../../../public/assets/heart.png" alt="heart" />
                 </div>
 
-                <img src="../../../public/assets/sneaker.png" alt="" />
+                <div className="product-image">
+                    <img src="../../../public/assets/sneaker.png" alt="" />
+                </div>
                 <p className='item-name'>Nike Shoe</p>
                 <p className="description">Men flex comfortable</p>
                 <div className='prices'>

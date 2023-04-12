@@ -1,0 +1,129 @@
+.summary-container{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+    input{
+        border: transparent;
+        border-radius: 6px;
+        background-color: #FFFFFF;
+        padding: 1rem;
+        color: #737576;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: capitalize;
+    }
+
+    ::placeholder{
+        color: #737576;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: capitalize;
+    }
+
+    .title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: capitalize;
+        color: #0E538C;
+        
+    }
+   
+    .item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 8rem;
+        
+        margin-top: 25px;
+
+        .price{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #0E538C;
+        }
+    
+        .text{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #737576;
+        }
+    }
+
+    .total-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 8rem;
+
+        .text{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            
+            text-transform: capitalize;
+            
+            color: #243A73;
+        }
+        
+        .price{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            
+            text-transform: capitalize;
+         
+            color: #0E538C;
+        }
+    }
+    
+    .btn-checkout{
+        height: 65px;
+        margin-top: 10px;
+
+        background-color: #243A73;
+        
+        border: transparent;
+        border-radius: 6px;
+        
+        color: white;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        
+        text-transform: capitalize;
+    }
+
+    hr{
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.36);    
+    }
+    
+}

@@ -49,8 +49,11 @@
         input{
             border: 1px solid #0280908F;
             border-radius: 100px;
-            color: #0280908F;
+            
             height: 62px;
+
+            color: #0280908F;
+            text-indent: 10px;
 
             &:focus{
                 border: 1px solid #0280908F;
@@ -61,9 +64,8 @@
             color: #02809085;
             background-image: url('../../assets/search.svg');
             background-repeat: no-repeat;
-            background-position: left center;
             background-position: right center;
-            background-size: 25px;
+            background-size: 15px;
           }
 
         .btn-register{

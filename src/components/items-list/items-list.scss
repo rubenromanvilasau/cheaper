@@ -1,0 +1,94 @@
+table{
+    th,td{
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.36);
+    }
+    
+    thead{
+        
+        th{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #737576;
+        }
+
+    }
+
+    tbody{
+
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 1rem;
+
+            img{
+                border-radius: 11px;
+            }
+
+            .details{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                text-transform: capitalize;
+                color: #243A73;
+
+
+
+                p{
+                    margin: 0;
+                }
+            }
+        }
+
+        .price{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            text-transform: capitalize;
+            color: #0E538C;
+        }
+
+        .delete{
+            color: red;
+            font-weight: 700;
+            font-size: 24px;
+            font-family: 'Poppins'; 
+            background: transparent;
+            border: transparent;
+            transition: 0.3s;
+
+            &:hover{
+                opacity: 0.8;
+                scale:(1.08);
+            }
+        }
+
+        .quantity{
+            button{
+                border: transparent;
+                background: transparent;
+                color: #0E538C;
+            }
+
+            span{
+                color: #0E538C;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
