@@ -73,6 +73,8 @@
             border-radius: 10px; 
             height: 50px;
             width: 370px;
+            text-indent: 10px;
+            color: #737576;
         }
 
         ::placeholder {
@@ -82,7 +84,7 @@
             background-repeat: no-repeat;
             background-position: left center;
             background-position: right center;
-            background-size: 25px;
+            background-size: 15px;
           }
 
         button{

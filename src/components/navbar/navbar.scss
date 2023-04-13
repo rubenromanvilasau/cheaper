@@ -15,6 +15,14 @@
         padding: 0 30px;
         gap: 4rem;
 
+        img{
+            cursor: pointer;
+
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+
         ul{
             list-style: none;
             display: flex;

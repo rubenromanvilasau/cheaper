@@ -20,7 +20,7 @@ export const CheaperApp = () => {
           <Route path="/order-history" element={ <OrderHistoryPage/> }/>
           <Route path="/*" element={ <h1>ERROR PAGE NOT FOUND</h1> }/>
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </>
 
     )
