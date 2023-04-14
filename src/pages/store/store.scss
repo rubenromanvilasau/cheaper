@@ -67,6 +67,7 @@
             font-family: 'Poppins';
         }
 
+
         input{
             border: none;
             background-color: #38A3A512;
@@ -80,7 +81,7 @@
         ::placeholder {
             text-indent: 10px;
             color: #737576;
-            background-image: url('../../assets/search.svg');
+            background-image: url('/assets/search.svg');
             background-repeat: no-repeat;
             background-position: left center;
             background-position: right center;
@@ -114,6 +115,7 @@
     }
     
     .group-shopping{
+        box-sizing: border-box;
         padding: 1rem;
         background-color: #F5F5F5;
     }
