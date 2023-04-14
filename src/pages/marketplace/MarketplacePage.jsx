@@ -80,17 +80,17 @@ export const MarketplacePage = () => {
                     </button>
                     <div className='powered-by'>
                         <p>Powered by</p>
-                        <img src="../../../public/assets/c.svg" alt="" />
-                        <img src="../../../public/assets/e.svg" alt="" />
-                        <img src="../../../public/assets/l.svg" alt="" />
-                        <img src="../../../public/assets/o.svg" alt="" />
+                        <img src="/assets/c.svg" alt="" />
+                        <img src="/assets/e.svg" alt="" />
+                        <img src="/assets/l.svg" alt="" />
+                        <img src="/assets/o.svg" alt="" />
                     </div>
 
                 </div>
 
                 {/* Banner */}
                 <div className="banner">
-                    <img src="../../../public/assets/marketplace-banner.svg" alt="" />
+                    <img src="/assets/marketplace-banner.svg" alt="" />
                 </div>
             </div>
 

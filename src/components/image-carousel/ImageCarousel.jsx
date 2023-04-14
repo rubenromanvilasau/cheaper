@@ -5,35 +5,35 @@ export const ImageCarousel = ({
     images = [
         {
             id: 1,
-            src: '../../../public/assets/sneaker.png'
+            src: '/assets/sneaker.png'
         },
         {
             id: 2,
-            src: '../../../public/assets/sneaker.png'
+            src: '/assets/sneaker.png'
         },
         {
             id: 3,
-            src: '../../../public/assets/sneaker.png'
+            src: '/assets/sneaker.png'
         },
         {
             id: 4,
-            src: '../../../public/assets/sneaker.png'
+            src: '/assets/sneaker.png'
         },
         {
             id: 5,
-            src: '../../../public/assets/sneaker.png'
+            src: '/assets/sneaker.png'
         },
         {
             id: 6,
-            src: '../../../public/assets/sneaker.png'
+            src: '/assets/sneaker.png'
         },
         {
             id: 7,
-            src: '../../../public/assets/sneaker.png'
+            src: '/assets/sneaker.png'
         },
         {
             id: 8,
-            src: '../../../public/assets/sneaker.png'
+            src: '/assets/sneaker.png'
         },
     ] 
 }) => {
@@ -57,7 +57,7 @@ export const ImageCarousel = ({
         <div className="controls">
             <img 
                 className="arrow" 
-                src="../../../public/assets/left-arrow.png" 
+                src="/assets/left-arrow.png" 
                 alt="" 
                 onClick={ onLeftArrowClick }
             />
@@ -77,7 +77,7 @@ export const ImageCarousel = ({
 
             <img 
                 className="arrow" 
-                src="../../../public/assets/right-arrow.png" 
+                src="/assets/right-arrow.png" 
                 alt="" 
                 onClick={ onRightArrowClick }
             />

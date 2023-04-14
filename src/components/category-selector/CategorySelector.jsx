@@ -36,7 +36,7 @@ export const CategorySelector = ({  }) => {
                 onClick={ () => toggleShowSubcategories(1) }
             >
                 <p>Beans</p>
-                <img src="../../../public/assets/dropdown-arrow.svg" alt="" />
+                <img src="/assets/dropdown-arrow.svg" alt="" />
             </div>
       
             { categories[0].showSubCategories && (

@@ -2,10 +2,11 @@ import React from 'react'
 import { Navbar, Footer } from './components/index';
 import { MarketplacePage, SellerPage, LoginPage, ItemPage, StoresPage, StorePage, CartPage, NewProductPage, OrderHistoryPage } from './pages/';
 import { Route, Routes } from 'react-router-dom';
+import { Web3Provider } from './context/Web3Provider';
 
 export const CheaperApp = () => {
     return (
-      <>
+      <Web3Provider>
         <Navbar />
         <Routes>
           <Route path="/" element={ <MarketplacePage/> }/>
@@ -21,7 +22,7 @@ export const CheaperApp = () => {
           <Route path="/*" element={ <h1>ERROR PAGE NOT FOUND</h1> }/>
         </Routes>
         <Footer/>
-      </>
+      </Web3Provider>
 
     )
 };

@@ -54,17 +54,17 @@ export const OrderHistoryPage = () => {
                     
                     <div>
                         <span>Main category</span>
-                        <span><img src="../../../public/assets/dropdown-arrow.svg"/></span>
+                        <span><img src="/assets/dropdown-arrow.svg"/></span>
                     </div>
                     
                     <div>
                         <span>Sub category</span>
-                        <span><img src="../../../public/assets/dropdown-arrow.svg"/></span>
+                        <span><img src="/assets/dropdown-arrow.svg"/></span>
                     </div>
 
                     <div>
                         <span>Stock</span>
-                        <span><img src="../../../public/assets/dropdown-arrow.svg"/></span>
+                        <span><img src="/assets/dropdown-arrow.svg"/></span>
                     </div>
                 </div>
 

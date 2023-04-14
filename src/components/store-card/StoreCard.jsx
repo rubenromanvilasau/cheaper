@@ -8,13 +8,13 @@ export const StoreCard = () => {
             <div className="card">
                 <img 
                     className="store-banner" 
-                    src="../../../public/assets/store-banner.png" 
+                    src="/assets/store-banner.png" 
                     alt="store-banner" 
                 />
                 <div className="name-logo">
                     <img 
                         className="store-logo" 
-                        src="../../../public/assets/store-logo.png" 
+                        src="/assets/store-logo.png" 
                         alt="store-logo" 
                     />
                     <div>

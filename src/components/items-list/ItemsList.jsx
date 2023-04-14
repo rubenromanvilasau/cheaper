@@ -16,7 +16,7 @@ export const ItemsList = () => {
                 {/* ITEM IMAGE AND NAME */}
                 <td>
                     <div className="item">
-                        <img src="../../../public/assets/big-sneaker.png" alt="" height={90}/>
+                        <img src="/assets/big-sneaker.png" alt="" height={90}/>
         
                         <div className="details">
                             <p>Broad beans</p>

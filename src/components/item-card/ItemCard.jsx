@@ -8,11 +8,11 @@ export const ItemCard = ({ item }) => {
 
                 <div className='img-header'>
                     <span>2 available</span>
-                    <img src="../../../public/assets/heart.png" alt="heart" />
+                    <img src="/assets/heart.png" alt="heart" />
                 </div>
 
                 <div className="product-image">
-                    <img src="../../../public/assets/sneaker.png" alt="" />
+                    <img src="/assets/sneaker.png" alt="" />
                 </div>
                 <p className='item-name'>Nike Shoe</p>
                 <p className="description">Men flex comfortable</p>

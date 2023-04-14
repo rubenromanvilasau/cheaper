@@ -32,7 +32,7 @@ export const NewProductPage = () => {
                         />
 
                         <div className="upload-image">
-                            <img src="../../../public/assets/upload.svg" alt="upload-icon"/>
+                            <img src="/assets/upload.svg" alt="upload-icon"/>
                             <span>Upload images</span>
                         </div>
                         {/* <input type="file" /> */}

@@ -17,7 +17,7 @@ export const ItemPage = () => {
             <section className="top">
                 
                 <div className="left">
-                    <img className='img-item' src="../../../public/assets/big-sneaker.png" alt="" />
+                    <img className='img-item' src="/assets/big-sneaker.png" alt="" />
                     <ImageCarousel/>
                 </div>
 
@@ -52,9 +52,9 @@ export const ItemPage = () => {
                     <div className="buttons">
                         <button className='btn-enter'>Enter group</button>
                         <QuantitySelector
-                            units={units}
-                            setUnits={setUnits}
-                            availableUnits={1}
+                            units={ units }
+                            setUnits={ setUnits }
+                            availableUnits={ 8 }
                         />
                     </div>
                     <StoreBenefits/>
